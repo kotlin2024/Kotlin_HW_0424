@@ -55,7 +55,7 @@ fun main(){
             }
         }
         println("연산이 끝났습니다 프로그램을 종료하시겠습니까? y/n")
-        var endornot= readLine()!!.toString()
+        val endornot= readLine()!!.toString()
         if(endornot=="y"){
             println("계산기 프로그램을 종료합니다")
             break
@@ -68,9 +68,9 @@ fun main(){
 }
 
 fun startmenu() : MutableList<Double>{
-    var choicemenu:Double=0.0
-    var firstnum:Double=0.0
-    var secondnum:Double=0.0
+    var choicemenu=0.0
+    var firstnum=0.0
+    var secondnum=0.0
     while(true){
         println("원하는 메뉴를 숫자로 입력해보세요")
         println("1->더하기        2->빼기       3-> 곱하기     4-> 나누기(몫)         5->나누기(나머지)")
