@@ -98,3 +98,4 @@ fun startmenu() : MutableList<Double>{
     var calList= mutableListOf<Double>(choicemenu,firstnum,secondnum)
     return calList // LIST형태로 사용자 입력값 3개 반환
 }
+//커밋 확인용
