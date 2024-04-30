@@ -28,6 +28,7 @@ fun mainMenu() {
 fun baseBallGame():Int {
     var userTry=0
     var computerNumber= generateRandomNumberList()
+    println("컴퓨터 숫자:${computerNumber}") //실제 완성본에서는 삭제해야함
     while(true){
 
         var userNumber=""
