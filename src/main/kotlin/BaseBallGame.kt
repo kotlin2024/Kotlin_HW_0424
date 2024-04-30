@@ -9,14 +9,16 @@ fun mainMenu() {
     var userTryList= mutableListOf<Int>()
     var userInput = ""
     println("야구게임에 오신것을 환영합니다! 원하시는 번호를 입력해주세요")
-    println("1. 게임 시작하기    2. 게임 기록 보기   3. 종료하기 ")
-    userInput = readLine()!!
+    while(true){
+        println("1. 게임 시작하기    2. 게임 기록 보기   3. 종료하기 ")
+        userInput = readLine()!!
 
-    when (userInput) {
-        "1" -> userTryList.add(baseBallGame()) //baseball 함수의  userTry 리턴값을 리스트로 저장함
-        "2" -> println("게임 기록 보는 함수로 이동하자")
-        "3" -> System.exit(0) //3번누르면 프로그램 종료
-        else -> println("숫자 1,2,3 중에 하나의 값만 입력해주세요")
+        when (userInput) {
+            "1" -> userTryList.add(baseBallGame()) //baseball 함수의  userTry 리턴값을 리스트로 저장함
+            "2" -> showUserTry(userTryList)
+            "3" -> System.exit(0) //3번누르면 프로그램 종료
+            else -> println("숫자 1,2,3 중에 하나의 값만 입력해주세요")
+        }
     }
 
 }
@@ -61,4 +63,10 @@ fun baseBallGame():Int {
     }
     println("총 ${userTry} 번의 시도를 통해 정답을 맞춤!")
     return userTry
+}
+fun showUserTry(userList:List<Int>){
+    println("내 기록 보기")
+    for(i in 0..userList.size-1){
+        println("${i+1}번째 시도횟수: ${userList[i]}")
+    }
 }
