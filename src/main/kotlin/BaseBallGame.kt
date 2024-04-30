@@ -1,3 +1,5 @@
+import kotlin.random.Random
+
 fun main() {
     mainMenu()
 }
@@ -16,7 +18,7 @@ fun mainMenu() {
         when (userInput) {
             "1" -> userTryList.add(baseBallGame()) //baseball 함수의  userTry 리턴값을 리스트로 저장함
             "2" -> showUserTry(userTryList)
-            "3" -> System.exit(0) //3번누르면 프로그램 종료
+            "3" -> exitGame()
             else -> println("숫자 1,2,3 중에 하나의 값만 입력해주세요")
         }
     }
@@ -25,8 +27,9 @@ fun mainMenu() {
 
 fun baseBallGame():Int {
     var userTry=0
+    var computerNumber= generateRandomNumberList()
     while(true){
-        var computerNumber= mutableListOf(1,2,3)
+
         var userNumber=""
 
         while(true){
@@ -52,10 +55,10 @@ fun baseBallGame():Int {
                     }
                 }
             }
+
             println("--------- ${countStrike}S ${countBall}B --------------")
             userTry+=1 //유저가 시도한 횟수
             if(countStrike==3) break
-
 
         }
         println(userNumberList)
@@ -65,9 +68,29 @@ fun baseBallGame():Int {
     println("총 ${userTry} 번의 시도를 통해 정답을 맞춤!")
     return userTry
 }
+fun generateRandomNumberList():MutableList<Int>{
+    var first= Random.nextInt(1,9)
+    var second=0
+    var third=0
+    while(true){
+        second= Random.nextInt(0,9)
+        if(second!=first) break
+    }
+    while(true){
+        third= Random.nextInt(0,9)
+        if(third!=first && third != second) break
+    }
+    return mutableListOf(first,second,third)
+
+
+}
+
 fun showUserTry(userList:List<Int>){
     println("내 기록 보기")
     for(i in 0..userList.size-1){
         println("${i+1}번째 시도횟수: ${userList[i]}")
     }
+}
+fun exitGame(){
+    System.exit(0)
 }
