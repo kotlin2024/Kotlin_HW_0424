@@ -22,8 +22,13 @@ fun mainMenu() {
 fun baseBallGame() {
     while(true){
         var computerNumber= mutableListOf(1,2,3)
-        print("정답을 맞추기 위한 서로다른 3자리 숫자를 입력해보세요! : ")
-        var userNumber = readLine()!!
+        var userNumber=""
+        while(true){
+            print("정답을 맞추기 위한 서로다른 3자리 숫자를 입력해보세요! : ")
+            userNumber = readLine()!!
+            if(userNumber.length==3) break
+            else println("반드시 3개의 숫자를 입력해야합니다")
+        }
         var userNumberList=userNumber.map{it.toString().toInt()}
         if(userNumberList[0]==0 || userNumberList.distinct().size != userNumberList.size) println("앞자리가 0이 되서는 안되며 중복된 값이 있어서는 안됩니다. 다시 입력해주세요.")
         else{
