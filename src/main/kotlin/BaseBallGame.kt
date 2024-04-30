@@ -34,9 +34,10 @@ fun baseBallGame():Int {
         var userNumber=""
 
         while(true){
-            print("정답을 맞추기 위한 서로다른 3자리 숫자를 입력해보세요! : ")
+            print("정답을 맞추기 위한 서로다른 3자리 숫자를 입력해보세요!  프로그램 종료는 'end' 를 입력!: ")
             userNumber = readLine()!!
-            if(userNumber.length==3 && userNumber.toIntOrNull() != null) break
+            if(userNumber=="end") exitGame()
+            else if(userNumber.length==3 && userNumber.toIntOrNull() != null) break
             else println("반드시 3개의 숫자를 입력해야하며 숫자만 입력해주세요")
 
         }
@@ -93,5 +94,6 @@ fun showUserTry(userList:List<Int>){
     }
 }
 fun exitGame(){
+    println("프로그램을 종료합니다")
     System.exit(0)
 }
