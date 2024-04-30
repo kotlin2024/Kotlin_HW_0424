@@ -36,7 +36,7 @@ fun baseBallGame():Int {
         while(true){
             print("정답을 맞추기 위한 서로다른 3자리 숫자를 입력해보세요!  프로그램 종료는 'end' 를 입력!: ")
             userNumber = readLine()!!
-            if(userNumber=="end") exitGame()
+            if(userNumber.equals("end", ignoreCase = true)) exitGame() //대소문자 구분 없이 end입력하면 종료
             else if(userNumber.length==3 && userNumber.toIntOrNull() != null) break
             else println("반드시 3개의 숫자를 입력해야하며 숫자만 입력해주세요")
 
@@ -90,7 +90,8 @@ fun generateRandomNumberList():MutableList<Int>{
 }
 
 fun showUserTry(userList:List<Int>){
-    println("내 기록 보기")
+    if(userList.isEmpty()) println("아직 단 한번의 시도조차 진행하지 않았어요")
+    else println("내 기록 보기")
     for(i in 0..userList.size-1){
         println("${i+1}번째 시도횟수: ${userList[i]}")
     }
