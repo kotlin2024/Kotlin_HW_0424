@@ -67,7 +67,9 @@ fun baseBallGame():Int {
         println("-----------------------------------")
 
     }
-    println("총 ${userTry} 번의 시도를 통해 정답을 맞춤!")
+    if(userTry==1) println("---------▶원샷원킬◀---------")
+    else if(userTry>10) println("총 ${userTry}번이나 시도")
+    else println("총 ${userTry} 번의 시도를 통해 정답을 맞춤!")
     return userTry
 }
 fun generateRandomNumberList():MutableList<Int>{
