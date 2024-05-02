@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24883839-5100-43f2-b9d0-7b1491aae522" name="Changes" comment="파일추가">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Chapter2HW.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Chapter3HW.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Chapter4HW.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/algho.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/algho.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="untitled" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotest Class" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="fature/signup" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kotlin2024&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kotlin2024/Kotlin_HW_0424.git&quot;,
+    &quot;accountId&quot;: &quot;256964e5-cbcb-4614-b3df-ca0805903c39&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2fRA9vTHZxsLKwyu3vdUwJFMGaD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.AddOperationTest (1).executor": "Run",
+    "Gradle.AddOperationTest.executor": "Run",
+    "Gradle.BagTest (1).executor": "Run",
+    "Gradle.BagTest.executor": "Run",
+    "Gradle.Build untitled.executor": "Run",
+    "Gradle.MultiplyOperationTest (1).executor": "Run",
+    "Gradle.MultiplyOperationTest.executor": "Run",
+    "Gradle.StartMenuTest (1).executor": "Run",
+    "Gradle.StartMenuTest.executor": "Run",
+    "Gradle.SubtractOperationTest.executor": "Run",
+    "Kotest.BagTest: Given: maxWeight가 0으로 주어졌을때.executor": "Run",
+    "Kotlin script (Beta).build.gradle.kts.executor": "Run",
+    "Kotlin.AlghoKt.executor": "Run",
+    "Kotlin.BaseBallGameKt.executor": "Run",
+    "Kotlin.CalculatorKt.executor": "Run",
+    "Kotlin.Chapter2HWKt.executor": "Run",
+    "Kotlin.Chapter3HWKt.executor": "Run",
+    "Kotlin.Chapter4HWKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "Kotest",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Kotest": "io.kotest.core.spec.style.BehaviorSpec",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/wnd2g/IdeaProjects/untitled",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/wnd2g/IdeaProjects/untitled/src/main/kotlin/Main.kt",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "C:\\Users\\wnd2g\\.gradle"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="io.kotest.core.spec.style.BehaviorSpec" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AddOperationTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;AddOperationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="BagTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;BagTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MultiplyOperationTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;MultiplyOperationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="StartMenuTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;StartMenuTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SubtractOperationTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SubtractOperationTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AddOperationTest (1)" />
+        <item itemvalue="Gradle.StartMenuTest (1)" />
+        <item itemvalue="Gradle.MultiplyOperationTest (1)" />
+        <item itemvalue="Gradle.SubtractOperationTest" />
+        <item itemvalue="Gradle.BagTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24883839-5100-43f2-b9d0-7b1491aae522" name="Changes" comment="" />
+      <created>1713753370722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713753370722</updated>
+      <workItem from="1713753371945" duration="154000" />
+      <workItem from="1713753537941" duration="10579000" />
+      <workItem from="1713832266280" duration="27931000" />
+      <workItem from="1713917225937" duration="19641000" />
+      <workItem from="1714005605562" duration="21563000" />
+      <workItem from="1714090038372" duration="8136000" />
+      <workItem from="1714113095633" duration="7307000" />
+      <workItem from="1714179171833" duration="3176000" />
+      <workItem from="1714269807249" duration="4491000" />
+      <workItem from="1714349144411" duration="10919000" />
+      <workItem from="1714435458752" duration="18175000" />
+      <workItem from="1714524297579" duration="10943000" />
+      <workItem from="1714608952464" duration="10186000" />
+    </task>
+    <task id="LOCAL-00001" summary="4개의 파일 업로드">
+      <option name="closed" value="true" />
+      <created>1713918440066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713918440066</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2개의 파일 삭제">
+      <option name="closed" value="true" />
+      <created>1713918915131</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713918915131</updated>
+    </task>
+    <task id="LOCAL-00003" summary="계산기 class abstract로 재구성">
+      <option name="closed" value="true" />
+      <created>1713922083390</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713922083390</updated>
+    </task>
+    <task id="LOCAL-00004" summary="warning 몇개 제거 (아직 다 제거하진 않음)">
+      <option name="closed" value="true" />
+      <created>1713922375646</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713922375646</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cal3파일 삭제">
+      <option name="closed" value="true" />
+      <created>1713922665800</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713922665800</updated>
+    </task>
+    <task id="LOCAL-00006" summary="enum class 추가(가독성)">
+      <option name="closed" value="true" />
+      <created>1714352226572</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714352226572</updated>
+    </task>
+    <task id="LOCAL-00007" summary="enum class 추가(가독성)">
+      <option name="closed" value="true" />
+      <created>1714352313129</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714352313129</updated>
+    </task>
+    <task id="LOCAL-00008" summary="101 커밋 확인용">
+      <option name="closed" value="true" />
+      <created>1714379821971</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714379821971</updated>
+    </task>
+    <task id="LOCAL-00009" summary="시작메뉴 + 게임시작 함수 구현">
+      <option name="closed" value="true" />
+      <created>1714388259279</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714388259279</updated>
+    </task>
+    <task id="LOCAL-00010" summary="시작메뉴 + 게임시작 함수 구현+//">
+      <option name="closed" value="true" />
+      <created>1714389668533</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714389668533</updated>
+    </task>
+    <task id="LOCAL-00011" summary="3자리 오버한 경우 처리">
+      <option name="closed" value="true" />
+      <created>1714436806075</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714436806075</updated>
+    </task>
+    <task id="LOCAL-00012" summary="유저가 try한 값 return하고 list에 저장하는 기능 추가">
+      <option name="closed" value="true" />
+      <created>1714438003987</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714438003987</updated>
+    </task>
+    <task id="LOCAL-00013" summary="유저가 시도한 횟수를 보여주는 함수 구현">
+      <option name="closed" value="true" />
+      <created>1714438628942</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714438628942</updated>
+    </task>
+    <task id="LOCAL-00014" summary="문자열 입력했을때 오류상황 해결">
+      <option name="closed" value="true" />
+      <created>1714439613679</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714439613679</updated>
+    </task>
+    <task id="LOCAL-00015" summary="exitGame()함수 추가 및 컴퓨터 랜덤숫자 리스트 함수 구현">
+      <option name="closed" value="true" />
+      <created>1714440644474</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714440644474</updated>
+    </task>
+    <task id="LOCAL-00016" summary="편의를 위해 컴퓨터 숫자 일단 보이게 수정">
+      <option name="closed" value="true" />
+      <created>1714440787334</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714440787334</updated>
+    </task>
+    <task id="LOCAL-00017" summary="게임 도중에 종료할수 있도록 baseBallGAME() 함수 수정">
+      <option name="closed" value="true" />
+      <created>1714441470461</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714441470461</updated>
+    </task>
+    <task id="LOCAL-00018" summary="시도 횟수에 따른 출력문 추가">
+      <option name="closed" value="true" />
+      <created>1714442016308</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1714442016308</updated>
+    </task>
+    <task id="LOCAL-00019" summary="시도 횟수 0번일때의 showUserTry()의 print 출력 추가">
+      <option name="closed" value="true" />
+      <created>1714442412435</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714442412435</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Refactor code fun(generateRandomNumberList) + randomExclude()">
+      <option name="closed" value="true" />
+      <created>1714543175300</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1714543175300</updated>
+    </task>
+    <task id="LOCAL-00021" summary="새로운 브랜치로의 테스트용 커밋입니다">
+      <option name="closed" value="true" />
+      <created>1714560377370</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1714560377370</updated>
+    </task>
+    <task id="LOCAL-00022" summary="enum class 활용">
+      <option name="closed" value="true" />
+      <created>1714633264891</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1714633264891</updated>
+    </task>
+    <task id="LOCAL-00023" summary="파일추가">
+      <option name="closed" value="true" />
+      <created>1714635136371</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1714635136371</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="4개의 파일 업로드" />
+    <MESSAGE value="2개의 파일 삭제" />
+    <MESSAGE value="계산기 class abstract로 재구성" />
+    <MESSAGE value="warning 몇개 제거 (아직 다 제거하진 않음)" />
+    <MESSAGE value="cal3파일 삭제" />
+    <MESSAGE value="enum class 추가(가독성)" />
+    <MESSAGE value="101 커밋 확인용" />
+    <MESSAGE value="시작메뉴 + 게임시작 함수 구현" />
+    <MESSAGE value="시작메뉴 + 게임시작 함수 구현+//" />
+    <MESSAGE value="3자리 오버한 경우 처리" />
+    <MESSAGE value="유저가 try한 값 return하고 list에 저장하는 기능 추가" />
+    <MESSAGE value="유저가 시도한 횟수를 보여주는 함수 구현" />
+    <MESSAGE value="문자열 입력했을때 오류상황 해결" />
+    <MESSAGE value="exitGame()함수 추가 및 컴퓨터 랜덤숫자 리스트 함수 구현" />
+    <MESSAGE value="편의를 위해 컴퓨터 숫자 일단 보이게 수정" />
+    <MESSAGE value="게임 도중에 종료할수 있도록 baseBallGAME() 함수 수정" />
+    <MESSAGE value="시도 횟수에 따른 출력문 추가" />
+    <MESSAGE value="시도 횟수 0번일때의 showUserTry()의 print 출력 추가" />
+    <MESSAGE value="Refactor code fun(generateRandomNumberList) + randomExclude()" />
+    <MESSAGE value="새로운 브랜치로의 테스트용 커밋입니다" />
+    <MESSAGE value="enum class 활용" />
+    <MESSAGE value="파일추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="파일추가" />
+  </component>
+</project>

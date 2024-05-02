@@ -1,0 +1,50 @@
+Index: src/main/kotlin/algho.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>fun main() {\r\n\r\n}\r\nfun solution(s: String): Boolean {\r\n    var answer = true\r\n    answer=s.all{it.isDigit()} && (s.length==4 || s.length==6 )\r\n    return answer\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/kotlin/algho.kt b/src/main/kotlin/algho.kt
+--- a/src/main/kotlin/algho.kt	(revision 86442167b782c766e0fff9c37cef8c34167107a5)
++++ b/src/main/kotlin/algho.kt	(date 1714640357105)
+@@ -1,8 +1,33 @@
++fun permute(nums: IntArray): List<List<Int>> {
++    val result = mutableListOf<List<Int>>()
++    backtrack(nums, mutableListOf(), BooleanArray(nums.size), result)
++    return result
++}
++
++fun backtrack(nums: IntArray, currentList: MutableList<Int>, used: BooleanArray, result: MutableList<List<Int>>) {
++    if (currentList.size == nums.size) {
++        result.add(ArrayList(currentList))
++        return
++    }
++
++    for (i in nums.indices) {
++        if (!used[i]) {
++            currentList.add(nums[i])
++            used[i] = true
++            backtrack(nums, currentList, used, result)
++            used[i] = false
++            currentList.removeAt(currentList.size - 1)
++        }
++    }
++}
++
+ fun main() {
++    val nums = intArrayOf(1, 2, 3)
++    val permutations = permute(nums)
+ 
++    println("주어진 배열: ${nums.joinToString()}")
++    println("생성된 순열:")
++    for (permutation in permutations) {
++        println(permutation.joinToString())
++    }
+ }
+-fun solution(s: String): Boolean {
+-    var answer = true
+-    answer=s.all{it.isDigit()} && (s.length==4 || s.length==6 )
+-    return answer
+-}
+\ No newline at end of file
